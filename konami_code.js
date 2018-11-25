@@ -37,43 +37,4 @@ function init() {
 }
 
 
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-//   let index = 0;
-
-//   document.body.addEventListener('keydown', onKeyDownHandler);
-
-//   function onKeyDownHandler(e) {
-//     const key = e.key;
-
-//     if (codes[i] == key) {
-//       i++;
-//       if (i === codes.length) {
-//         alert('Hurray!');
-
-//         i = 0;
-//       }
-//     } else {
-//       i = 0;
-//     }
-//   }
-// }
-
-// init();
+init();
