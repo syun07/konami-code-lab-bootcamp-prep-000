@@ -21,9 +21,9 @@ function init() {
   body.addEventListener('keydown', function(e) {
     const key = e.key;
     
-    }
-  }
+  });
 }
+
 
 
   
