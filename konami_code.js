@@ -28,6 +28,7 @@ function init() {
       if (index === codes.length) {
         alert('HURRAY!');
         
+        index = 0;
       }
     
     } else {
