@@ -20,7 +20,7 @@ function init() {
   
   body.addEventListener('keydown', function(e) {
     const key = e.key;
-    // console.log(key);
+    console.log(key);
   
     if (key === codes[index]) {
       index++;
