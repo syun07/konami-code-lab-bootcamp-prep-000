@@ -12,7 +12,7 @@ const codes = [
 ];
 
 
-var index = [];
+var index = 0;
 
 function init() {
   
