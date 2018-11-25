@@ -12,7 +12,7 @@ const codes = [
 ];
 
 
-var index = 0;
+var index = [];
 
 function init() {
   
@@ -25,7 +25,7 @@ function init() {
     if (key === codes[index]) {
       index++;
       
-      if (index.length === 10) {
+      if (index === codes.length) {
         alert('HURRAY!');
         index = 0;
       }
