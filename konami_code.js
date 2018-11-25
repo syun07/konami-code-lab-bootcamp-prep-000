@@ -22,10 +22,10 @@ function init() {
     const key = e.key;
     console.log(key)
   
-    if (key === codes[index]) {
+    if (index === codes.length) {
       index++;
       
-      if (index === codes.length) {
+      if (key === codes[index]) {
         alert ('HURRAY!');
         
         index = 0;
