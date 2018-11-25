@@ -13,7 +13,6 @@ const codes = [
 
 
 let index = 0;
-//keep track of index outside of the event handler
 
 function init() {
   
