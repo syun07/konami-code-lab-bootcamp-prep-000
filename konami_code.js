@@ -25,7 +25,7 @@ function init() {
     if (key === codes[index]) {
       index++;
       
-      if (index === codes.length) {
+      if (index.length = 10) {
         alert('HURRAY!');
         index = 0;
       }
