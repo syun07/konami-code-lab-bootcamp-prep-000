@@ -20,12 +20,12 @@ function init() {
   
   body.addEventListener('keydown', function(e) {
     const key = e.key;
-    console.log(key)
+    console.log(key);
   
-    if (index === codes.length) {
+    if (key === codes[index]) {
       index++;
       
-      if (key === codes[index]) {
+      if (index === codes.length) {
         alert ('HURRAY!');
         
         index = 0;
